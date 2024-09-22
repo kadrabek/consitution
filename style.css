@@ -1,0 +1,49 @@
+/* For the body I wanted the background color to be my favorite color which is purple
+I wanted the color to be a muted color so that it was easier to read the text. */
+
+body{
+    background: linear-gradient(to right, #6a5681, #5b3e6a, #6a5681);
+    color: #722e81;
+}
+
+/* For the h1 through h3 I wanted the text to be in a darker color than the p.
+I wanted the text to be underlined as well since it is supposed to be a header. */
+
+h1{
+    color: #1c1701;
+    font-family: fantasy;
+    text-decoration-color: black;
+    text-decoration-thickness: 0;
+    text-decoration: underline;
+}
+
+h2{
+    color: #1c1701;
+    font-family: fantasy;
+    text-decoration-color: white;
+    text-decoration-thickness: 0;
+    text-decoration: underline;
+}
+
+h3{
+    color: #1c1701;
+    font-family: fantasy;
+    text-decoration-color: white;
+    text-decoration-thickness: 0;
+    text-decoration: underline;
+}
+
+/* For the p section I wanted the text to be dark but not as dark as the headers.
+I didn't want to do anything too bold for this section as it's just a paragraph. */
+
+p{
+    color: #1c1b15;
+    font-family: fantasy;
+}
+
+/* I wanted this to be brighter than the rest of the text as it's a visted section. I still
+wanted to use purple as the main color but just lighter.  */
+
+a:visited{
+	color: rgb(83, 21, 140);
+}
